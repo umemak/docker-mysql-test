@@ -65,3 +65,19 @@ $ docker image ls mysql
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 mysql               5.7                 a70d36bc331a        7 days ago          449MB
 ```
+
+## :x:AWS CloudShell
+dockerがインストールされていなかった。
+
+## :o:AWS Cloud9
+docker-compose が入っていなかったのでマニュアルインストールした。
+```
+$ docker -v
+Docker version 19.03.13-ce, build 4484c46
+$ docker-compose -v
+docker-compose version 1.16.1, build 6d1ac21
+$ docker image ls mysql
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+mysql               5.7                 a70d36bc331a        8 days ago          449MB
+```
+docker-composeを最新の1.28.2にしても問題なく動いた。
