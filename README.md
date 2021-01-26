@@ -11,6 +11,7 @@ mysql_1  | + docker_process_sql --database=testdb
 mysql_1  | /docker-entrypoint-initdb.d/010_createtest.sh: line 6: docker_process_sql: command not found
 docker-mysql-test_mysql_1 exited with code 127
 ```
+`docker_process_sql`は https://github.com/docker-library/mysql/blob/master/5.7/docker-entrypoint.sh#L200 で定義されている。
 
 ## :x:mac(docker desktop 3.1.0)
 ```
