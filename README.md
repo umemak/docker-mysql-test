@@ -61,4 +61,7 @@ $ docker -v
 Docker version 19.03.13, build 4484c46d9d
 $ docker-compose -v
 docker-compose version 1.27.4, build 40524192
+$ docker image ls mysql
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+mysql               5.7                 a70d36bc331a        7 days ago          449MB
 ```
