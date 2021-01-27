@@ -13,6 +13,11 @@ docker-mysql-test_mysql_1 exited with code 127
 ```
 `docker_process_sql`は https://github.com/docker-library/mysql/blob/master/5.7/docker-entrypoint.sh#L200 で定義されている。
 
+解決？
+shファイルの実行権限有無で挙動が変わる。
+https://github.com/docker-library/mysql/blob/master/5.7/docker-entrypoint.sh#L64
+実行権限を外すことで解消する環境もある。
+
 ## :x:mac(docker desktop 3.1.0)
 ```
 $ docker -v
